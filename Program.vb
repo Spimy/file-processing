@@ -11,14 +11,5 @@ Module Program
             .Display()
             .SelectOption()
         End With
-
-        'Dim Data = SerialProcessor.GetFileData()
-        'Dim EmailOfSpimy As String = Data.GetValueOrDefault(
-        '    "Spimy",
-        '    New DataStructure With {.Email = "Does Not Exist"}
-        ').Email
-        'Console.WriteLine(EmailOfSpimy)
-
-        Console.ReadKey()
     End Sub
 End Module
